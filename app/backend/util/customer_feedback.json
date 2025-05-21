@@ -1,0 +1,200 @@
+[
+{
+    "customer_id": "C002",
+    "feedback": "Support is slow and documentation is hard to follow.",
+    "sentiment": -0.5,
+    "source": "support_chat",
+    "created_at": {
+        "$date": "2025-03-18T14:32:00.000Z"
+    }
+},
+{
+    "customer_id": "C001",
+    "feedback": "The new dashboard is intuitive but still lacks customization.",
+    "sentiment": 0.7,
+    "source": "email",
+    "created_at": {
+        "$date": "2025-03-15T10:00:00.000Z"
+    }
+},
+{
+    "customer_id": "C003",
+    "feedback": "I love the recent update—it fixed all my previous concerns!",
+    "sentiment": 0.9,
+    "source": "survey",
+    "created_at": {
+        "$date": "2025-03-20T09:45:00.000Z"
+    }
+},
+{
+    "customer_id": "C004",
+    "feedback": "API integration was seamless, great documentation!",
+    "sentiment": 0.8,
+    "source": "email",
+    "created_at": {
+        "$date": "2025-03-21T11:20:00.000Z"
+    }
+},
+{
+    "customer_id": "C005",
+    "feedback": "System keeps crashing during peak hours.",
+    "sentiment": -0.8,
+    "source": "support_chat",
+    "created_at": {
+        "$date": "2025-03-22T15:45:00.000Z"
+    }
+},
+{
+    "customer_id": "C006",
+    "feedback": "Decent platform but pricing is too high.",
+    "sentiment": 0.2,
+    "source": "survey",
+    "created_at": {
+        "$date": "2025-03-23T08:15:00.000Z"
+    }
+},
+{
+    "customer_id": "C007",
+    "feedback": "Mobile app needs improvement, desktop version works great.",
+    "sentiment": 0.3,
+    "source": "app_review",
+    "created_at": {
+        "$date": "2025-03-24T13:30:00.000Z"
+    }
+},
+{
+    "customer_id": "C008",
+    "feedback": "Outstanding customer service experience!",
+    "sentiment": 1.0,
+    "source": "support_chat",
+    "created_at": {
+        "$date": "2025-03-25T16:20:00.000Z"
+    }
+},
+{
+    "customer_id": "C009",
+    "feedback": "Can't get the export feature to work properly.",
+    "sentiment": -0.4,
+    "source": "email",
+    "created_at": {
+        "$date": "2025-03-26T09:10:00.000Z"
+    }
+},
+{
+    "customer_id": "C010",
+    "feedback": "New interface is confusing and complicated.",
+    "sentiment": -0.6,
+    "source": "survey",
+    "created_at": {
+        "$date": "2025-03-27T14:05:00.000Z"
+    }
+},
+{
+    "customer_id": "C011",
+    "feedback": "Security features are impressive!",
+    "sentiment": 0.9,
+    "source": "email",
+    "created_at": {
+        "$date": "2025-03-28T11:40:00.000Z"
+    }
+},
+{
+    "customer_id": "C012",
+    "feedback": "Loading times have improved significantly.",
+    "sentiment": 0.8,
+    "source": "app_review",
+    "created_at": {
+        "$date": "2025-03-29T10:25:00.000Z"
+    }
+},
+{
+    "customer_id": "C013",
+    "feedback": "Regular downtime is affecting our business.",
+    "sentiment": -0.9,
+    "source": "support_chat",
+    "created_at": {
+        "$date": "2025-03-30T12:15:00.000Z"
+    }
+},
+{
+    "customer_id": "C014",
+    "feedback": "Feature request: Please add dark mode.",
+    "sentiment": 0.1,
+    "source": "survey",
+    "created_at": {
+        "$date": "2025-03-31T17:50:00.000Z"
+    }
+},
+{
+    "customer_id": "C015",
+    "feedback": "Integration with third-party tools is broken.",
+    "sentiment": -0.7,
+    "source": "email",
+    "created_at": {
+        "$date": "2025-04-01T08:30:00.000Z"
+    }
+},
+{
+    "customer_id": "C016",
+    "feedback": "Best customer support I've experienced!",
+    "sentiment": 1.0,
+    "source": "support_chat",
+    "created_at": {
+        "$date": "2025-04-02T15:20:00.000Z"
+    }
+},
+{
+    "customer_id": "C017",
+    "feedback": "Analytics dashboard provides great insights.",
+    "sentiment": 0.8,
+    "source": "survey",
+    "created_at": {
+        "$date": "2025-04-03T13:40:00.000Z"
+    }
+},
+{
+    "customer_id": "C018",
+    "feedback": "Password reset process is too complicated.",
+    "sentiment": -0.3,
+    "source": "support_chat",
+    "created_at": {
+        "$date": "2025-04-04T11:05:00.000Z"
+    }
+},
+{
+    "customer_id": "C019",
+    "feedback": "Love the new mobile app features!",
+    "sentiment": 0.9,
+    "source": "app_review",
+    "created_at": {
+        "$date": "2025-04-05T16:15:00.000Z"
+    }
+},
+{
+    "customer_id": "C020",
+    "feedback": "Reporting functionality needs more options.",
+    "sentiment": 0.0,
+    "source": "email",
+    "created_at": {
+        "$date": "2025-04-06T09:55:00.000Z"
+    }
+},
+{
+    "customer_id": "C021",
+    "feedback": "Technical support team is very knowledgeable.",
+    "sentiment": 0.85,
+    "source": "survey",
+    "created_at": {
+        "$date": "2025-04-07T14:25:00.000Z"
+    }
+},
+{
+    "customer_id": "C022",
+    "feedback": "Billing system charged me twice this month.",
+    "sentiment": -0.8,
+    "source": "support_chat",
+    "created_at": {
+        "$date": "2025-04-08T10:35:00.000Z"
+    }
+}
+]

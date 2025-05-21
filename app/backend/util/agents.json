@@ -1,0 +1,36 @@
+[{
+  "name": "Nova",
+  "role": "Optimist",
+  "description": "Advocates for innovation and future potential.",
+  "tools": [
+    "vector_search"
+  ],
+  "access_collections": [
+    "customer_feedback"
+  ]
+},
+{
+  "name": "Zeta",
+  "role": "Risk Analyst",
+  "description": "Identifies flaws, risks, and uncertainties.",
+  "tools": [
+    "aggregation"
+  ],
+  "access_collections": [
+    "system_metrics",
+    "performance_logs"
+  ]
+},
+{
+  "name": "Axel",
+  "role": "Data Analyst",
+  "description": "Focuses on factual data and trends.",
+  "tools": [
+    "aggregation",
+    "search"
+  ],
+  "access_collections": [
+    "sales_data",
+    "product_metrics"
+  ]
+}]

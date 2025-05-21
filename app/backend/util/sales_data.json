@@ -1,0 +1,163 @@
+[
+  {
+    "region": "EMEA",
+    "quarter": "Q1-2025",
+    "revenue": 540000,
+    "churn_rate": 0.09,
+    "avg_deal_size": 10500
+  },
+  {
+    "region": "North America",
+    "quarter": "Q1-2025",
+    "revenue": 750000,
+    "churn_rate": 0.07,
+    "avg_deal_size": 12000
+  },
+  {
+    "region": "APAC",
+    "quarter": "Q1-2025",
+    "revenue": 420000,
+    "churn_rate": 0.05,
+    "avg_deal_size": 9800
+  },
+  {
+    "region": "EMEA",
+    "quarter": "Q2-2025",
+    "revenue": 580000,
+    "churn_rate": 0.08,
+    "avg_deal_size": 11000
+  },
+  {
+    "region": "North America",
+    "quarter": "Q2-2025",
+    "revenue": 820000,
+    "churn_rate": 0.06,
+    "avg_deal_size": 13500
+  },
+  {
+    "region": "APAC",
+    "quarter": "Q2-2025",
+    "revenue": 460000,
+    "churn_rate": 0.04,
+    "avg_deal_size": 10200
+  },
+  {
+    "region": "EMEA",
+    "quarter": "Q3-2025",
+    "revenue": 610000,
+    "churn_rate": 0.07,
+    "avg_deal_size": 11500
+  },
+  {
+    "region": "North America",
+    "quarter": "Q3-2025",
+    "revenue": 890000,
+    "churn_rate": 0.05,
+    "avg_deal_size": 14000
+  },
+  {
+    "region": "APAC",
+    "quarter": "Q3-2025",
+    "revenue": 495000,
+    "churn_rate": 0.03,
+    "avg_deal_size": 10800
+  },
+  {
+    "region": "EMEA",
+    "quarter": "Q4-2025",
+    "revenue": 650000,
+    "churn_rate": 0.06,
+    "avg_deal_size": 12000
+  },
+  {
+    "region": "North America",
+    "quarter": "Q4-2025",
+    "revenue": 950000,
+    "churn_rate": 0.04,
+    "avg_deal_size": 15000
+  },
+  {
+    "region": "APAC",
+    "quarter": "Q4-2025",
+    "revenue": 530000,
+    "churn_rate": 0.02,
+    "avg_deal_size": 11200
+  },
+  {
+    "region": "EMEA",
+    "quarter": "Q1-2026",
+    "revenue": 680000,
+    "churn_rate": 0.08,
+    "avg_deal_size": 12500
+  },
+  {
+    "region": "North America",
+    "quarter": "Q1-2026",
+    "revenue": 980000,
+    "churn_rate": 0.06,
+    "avg_deal_size": 15500
+  },
+  {
+    "region": "APAC",
+    "quarter": "Q1-2026",
+    "revenue": 560000,
+    "churn_rate": 0.04,
+    "avg_deal_size": 11500
+  },
+  {
+    "region": "EMEA",
+    "quarter": "Q2-2026",
+    "revenue": 720000,
+    "churn_rate": 0.07,
+    "avg_deal_size": 13000
+  },
+  {
+    "region": "North America",
+    "quarter": "Q2-2026",
+    "revenue": 1020000,
+    "churn_rate": 0.05,
+    "avg_deal_size": 16000
+  },
+  {
+    "region": "APAC",
+    "quarter": "Q2-2026",
+    "revenue": 590000,
+    "churn_rate": 0.03,
+    "avg_deal_size": 12000
+  },
+  {
+    "region": "EMEA",
+    "quarter": "Q3-2026",
+    "revenue": 760000,
+    "churn_rate": 0.06,
+    "avg_deal_size": 13500
+  },
+  {
+    "region": "North America",
+    "quarter": "Q3-2026",
+    "revenue": 1080000,
+    "churn_rate": 0.04,
+    "avg_deal_size": 16500
+  },
+  {
+    "region": "APAC",
+    "quarter": "Q3-2026",
+    "revenue": 620000,
+    "churn_rate": 0.02,
+    "avg_deal_size": 12500
+  },
+  {
+    "region": "EMEA",
+    "quarter": "Q4-2026",
+    "revenue": 800000,
+    "churn_rate": 0.05,
+    "avg_deal_size": 14000
+  },
+  {
+    "region": "North America",
+    "quarter": "Q4-2026",
+    "revenue": 1150000,
+    "churn_rate": 0.03,
+    "avg_deal_size": 17000
+  }
+]

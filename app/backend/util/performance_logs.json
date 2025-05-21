@@ -1,0 +1,99 @@
+[{
+  "feature": "Smart Filters",
+  "issue_type": "slow response",
+  "occurrences": 32,
+  "reported_by": "QA Team",
+  "severity": "medium",
+  "date_reported": "2025-03-25T12:00:00Z",
+  "summary": "Medium severity performance issue with Smart Filters causing slow response times, reported 32 times by QA Team"
+},
+{
+  "feature": "Auto-tagging",
+  "issue_type": "inconsistent output",
+  "occurrences": 18,
+  "reported_by": "Users",
+  "severity": "low",
+  "date_reported": "2025-03-22T08:45:00Z",
+  "summary": "Low severity issue with Auto-tagging producing inconsistent results, reported 18 times by users"
+},
+{
+  "feature": "Search Function",
+  "issue_type": "timeout",
+  "occurrences": 45,
+  "reported_by": "DevOps",
+  "severity": "high",
+  "date_reported": "2025-03-24T15:30:00Z",
+  "summary": "High severity timeout issues in Search Function, reported 45 times by DevOps team"
+},
+{
+  "feature": "Data Export",
+  "issue_type": "memory leak",
+  "occurrences": 12,
+  "reported_by": "Development Team",
+  "severity": "critical",
+  "date_reported": "2025-03-23T09:15:00Z",
+  "summary": "Critical memory leak in Data Export functionality, reported 12 times by Development Team"
+},
+{
+  "feature": "Dashboard",
+  "issue_type": "rendering error",
+  "occurrences": 27,
+  "reported_by": "Users",
+  "severity": "medium",
+  "date_reported": "2025-03-21T14:20:00Z",
+  "summary": "Medium severity Dashboard rendering errors affecting user experience, reported 27 times by users"
+},
+{
+  "feature": "Chat Integration",
+  "issue_type": "connection drop",
+  "occurrences": 64,
+  "reported_by": "Support Team",
+  "severity": "high",
+  "date_reported": "2025-03-20T11:10:00Z",
+  "summary": "High severity connection drops in Chat Integration, reported 64 times by Support Team"
+},
+{
+  "feature": "File Upload",
+  "issue_type": "timeout",
+  "occurrences": 23,
+  "reported_by": "QA Team",
+  "severity": "medium",
+  "date_reported": "2025-03-19T16:45:00Z",
+  "summary": "Medium severity timeout issues in File Upload feature, reported 23 times by QA Team"
+},
+{
+  "feature": "API Gateway",
+  "issue_type": "high latency",
+  "occurrences": 89,
+  "reported_by": "DevOps",
+  "severity": "critical",
+  "date_reported": "2025-03-18T13:30:00Z",
+  "summary": "Critical high latency issues in API Gateway, reported 89 times by DevOps team"
+},
+{
+  "feature": "User Authentication",
+  "issue_type": "session expired",
+  "occurrences": 41,
+  "reported_by": "Users",
+  "severity": "high",
+  "date_reported": "2025-03-17T10:20:00Z",
+  "summary": "High severity session expiration issues in User Authentication, reported 41 times by users"
+},
+{
+  "feature": "Report Generation",
+  "issue_type": "data mismatch",
+  "occurrences": 15,
+  "reported_by": "Business Team",
+  "severity": "low",
+  "date_reported": "2025-03-16T09:00:00Z",
+  "summary": "Low severity data mismatch issues in Report Generation, reported 15 times by Business Team"
+},
+{
+  "feature": "Notifications",
+  "issue_type": "delayed delivery",
+  "occurrences": 53,
+  "reported_by": "Support Team",
+  "severity": "medium",
+  "date_reported": "2025-03-15T17:25:00Z",
+  "summary": "Medium severity delayed delivery issues in Notifications system, reported 53 times by Support Team"
+}]
