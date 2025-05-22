@@ -17,7 +17,7 @@ AGENT_PERSONAS = {
 LLM_MODELS = get_together_models(os.getenv("TOGETHER_API_KEY"))
 LLM_MODELS_ID = [model["id"] for model in LLM_MODELS if model["type"]== "chat" or model["type"]== "language"]
 
-IPV4 = os.getenv("IPV4")
+IPV4 = os.getenv("IPV4") 
 BASE_URL = f"http://{IPV4}"
 
 def process_all_agents(message, nova_model, zeta_model, axel_model, aggregator_model, collection_names):

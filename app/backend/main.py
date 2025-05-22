@@ -56,20 +56,19 @@ async def load_data():
                 # print("Collection data", collection_data)
                 for data in collection_data:
                     text = data[field]
-                    embedding = generate_embeddings(text)
+                    embedding = await generate_embeddings(text)
                     doc_id = data['_id']
                     await insert_field_data(collection, doc_id, "embedding", embedding)
                 
                 yield f"Vector index for {collection} created successfully!\n"
             
-            
-
             yield "All data loaded and embeddings created successfully!\n"
  
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
     
     return StreamingResponse(generate(), media_type="text/plain")
+
 
 @app.get("/health")
 async def health_check():

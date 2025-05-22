@@ -160,6 +160,7 @@ Resources:
           GROUP_ID=${GROUPID}
           TOGETHER_API_KEY="${TogetherAPI}"
           DATABASE_NAME="togetherai"
+          IPV4="backend:8000"
           EOF
           }
 
@@ -171,27 +172,14 @@ Resources:
                   { echo  "MongoDB cluster deployment failed. Exiting."; exit 1; }
               fi
           }
-
-          pull_docker_images() {
-              echo "Pulling Docker images..."
-              # Pull image from ECR Public
-              echo "Pulling image from ECR Public..."
-              if ! docker pull ${ECRImageURI}; then
-              echo "Failed to pull ECR image. Exiting."
-              exit 1
-              fi
-          }
           
           deploy_services() {
-              # Run the container
-              echo "Starting Docker container..."
-              if ! docker run -d \
-                --name maap-app \
-                -p 7860:7860 \
-                ${ECRImageURI}; then
-              echo "Failed to start container. Exiting."
-              exit 1
+              echo "Starting Docker services..."
+              docker network create together-network || echo "Docker network already exists. Continuing..."
+              if ! docker-compose up -d; then
+                 { echo "Docker Compose failed to start services. Exiting."; exit 1; }
               fi
+
           }
 
           main() {
@@ -200,7 +188,6 @@ Resources:
               configure_docker
               clone_repository
               setup_env_file
-              pull_docker_images &
               deploy_mongodb
               deploy_services
               echo "Instance initialization completed at $(date)."

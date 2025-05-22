@@ -106,7 +106,7 @@ async def insert_field_data(collection_name: str, doc_id: str, field_name: str, 
         result = await collection.update_one(
             {"_id": doc_id},
             {"$set": {field_name: field_value}},
-            upsert=True
+            upsert=False
         )
         return result.upserted_id is not None or result.modified_count > 0
     except Exception as e:
