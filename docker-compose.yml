@@ -1,0 +1,26 @@
+services:
+  backend:
+    image: public.ecr.aws/s2e1n3u8/maap-togetherai-qs/backend:latest
+    env_file:
+      - .env
+    networks:
+      - together-network
+    ports:
+      - 8000:8000
+
+  frontend:
+    image: public.ecr.aws/s2e1n3u8/maap-togetherai-qs/frontend:latest
+    env_file:
+      - .env
+    depends_on:
+      - backend
+    networks:
+      - together-network
+    ports:
+      - 7860:7860
+
+networks:
+  together-network:
+    driver: bridge
+    name: together-network
+    external: true
