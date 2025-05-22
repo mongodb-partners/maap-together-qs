@@ -1,11 +1,11 @@
 __pycache__/main.cpython-311.pyc
-app/backend/__pycache__/main.cpython-311.pyc
-app/backend/services/__pycache__/agent_orchestrator.cpython-311.pyc
-app/backend/services/__pycache__/llm_caller.cpython-311.pyc
-app/backend/services/__pycache__/mongo_client.cpython-311.pyc
-app/backend/services/__pycache__/prompt_builder.cpython-311.pyc
-app/backend/services/__pycache__/summarizer.cpython-311.pyc
+app/backend/__pycache__/*
+app/backend/services/__pycache__/*
 app/backend/venv/*
 app/.env
 app/frontend/__pycache__/get_models.cpython-311.pyc
 one-click copy.sh
+logs/ec2-live-logs.log
+logs/one-click-deployment.log
+.env
+*.pem
